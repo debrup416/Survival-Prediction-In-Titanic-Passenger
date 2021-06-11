@@ -44,7 +44,6 @@ for predictions.
 ### Methodology
 
 * Data Selection:
-
 Data is the foundation for any machine learning project. The
 job is to find ways and sources of collecting relevant and comprehensive data,
 interpreting it, and analyzing results with the help of statistical techniques.
