@@ -1,6 +1,6 @@
 # Survival-Prediction-In-Titanic-Passenger-Using-Random-Forest
 
-<a href="https://github.com/prateekiiest/boston_housing"><img style="position: relative; top: 0; left: 0; border: 0;" src="https://68.media.tumblr.com/38ae897f20630ef88e6484dea00db3b3/tumblr_mm8fhitR3u1rwwvg9o1_500.gif" alt=" Fork this repo" data-canonical-></a>
+<a href="https://github.com/debrup416"><img style="position: relative; top: 0; left: 0; border: 5;" src="https://68.media.tumblr.com/38ae897f20630ef88e6484dea00db3b3/tumblr_mm8fhitR3u1rwwvg9o1_500.gif" alt=" Fork this repo" data-canonical-></a>
 
 ### Description
 
@@ -15,6 +15,16 @@ than others, such as women, children, and the upper-class. In this paper we are
 going to make a predictive analysis of what sorts of people were likely to
 survive using some tools in machine learning to predict which passengers
 survived the tragedy.
+
+### Install
+
+This project requires **Python 3.6** and the following Python libraries installed:
+
+- [NumPy](http://www.numpy.org/)
+- [Pandas](http://pandas.pydata.org)
+- [matplotlib](http://matplotlib.org/)
+- [seaborn](https://seaborn.pydata.org/installing.html)
+- [scikit-learn](http://scikit-learn.org/stable/)
 
 ### Problem Defination
 
@@ -96,12 +106,10 @@ The dataset used in this project is included as `titanic_data.csv`. This dataset
 - `fare` ? Passenger Fare
 - `cabin` ? Cabin
 - `embarked` ? Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
-
-
-
-
-
-
+- `home` ? Home
+- `dest` ? Destination
+- `body` ? Body
+- `boat` ? Boat
 
 
 
