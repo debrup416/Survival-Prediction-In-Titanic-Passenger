@@ -43,34 +43,35 @@ for predictions.
 
 ### Methodology
 
-##Data Selection:
+* Data Selection:
+
 Data is the foundation for any machine learning project. The
 job is to find ways and sources of collecting relevant and comprehensive data,
 interpreting it, and analyzing results with the help of statistical techniques.
 
-##Data Visualization:
+* Data Visualization:
 A large amount of information represented in graphic form
 is easier to understand and analyze. Some companies specify that a data analyst
 must know how to create slides, diagrams, charts, and templates.
 
-##Data cleaning:
+* Data cleaning:
 This set of procedures allows for removing noise and fixing
 inconsistencies in data. A data scientist can fill in missing data using imputation
 techniques. A specialist also detects outliers — observations that deviate
 significantly from the rest of distribution.
 
-##Data Splitting: 
+* Data Splitting: 
 A dataset used for machine learning should be partitioned into
 three subsets — training, test, and validation sets.
 
-##Model Selection:
+* Model Selection:
 After a data scientist has preprocessed the collected data and
 split it into three subsets, he or she can proceed with a model training. This
 process entails “feeding” the algorithm with training data. An algorithm will
 process 14 data and output a model that is able to find a target value in new
 data. The purpose of model training is to develop a model.
 
-##Model Evaluation: The goal of this step is to develop the simplest model able
+* Model Evaluation: The goal of this step is to develop the simplest model able
 to formulate a target value fast and well enough and check the accuracy
 
 
@@ -81,6 +82,21 @@ The main objective of this is to determine what sort of a person was likely to
 survive the Titanic.
 
 
+### Data
+
+The dataset used in this project is included as `titanic_data.csv`. This dataset is provided by Udacity and contains the following attributes:
+
+- `survival` ? Survival (0 = No; 1 = Yes)
+- `pclass` ? Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)
+- `name` ? Name
+- `sex` ? Sex
+- `age` ? Age
+- `sibsp` ? Number of Siblings/Spouses Aboard
+- `parch` ? Number of Parents/Children Aboard
+- `ticket` ? Ticket Number
+- `fare` ? Passenger Fare
+- `cabin` ? Cabin
+- `embarked` ? Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
 
 
 
